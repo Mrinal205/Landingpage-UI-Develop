@@ -1,0 +1,177 @@
+sections:
+  -
+    title: General
+    items:
+      -
+        title: What is Moon Assist?
+        content:
+          Moon Assist makes cryptocurrency trading simpler. Our intuitive control center integrates the top exchanges into a single platform so traders can access and manage their portfolios seamlessly. Moreover, we’ve implemented advanced trading features to offer more flexibility beyond the features available on each independent exchange.
+      -
+        title: What trading features does Moon Assist offer?
+        content:
+          Moon Assist offers a robust range of trading features. Additional features are regularly being evaluated. Today, traders have access to
+
+          - **Limit Trading**
+
+          - **Market Trading**
+
+          - **Stop Market**
+
+          - **Trailing Stop**
+
+          - **Advanced Buy Signals**
+
+          - **Coin Conversion**
+      -
+        title: Is the platform for beginners or experienced traders?
+        content:
+          The Moon Assist platform is designed with both crypto enthusiasts and experienced traders in mind. All levels of traders can take advantage of the intuitive platform design. Experienced traders can benefit further from a variety of advanced trading features.
+      -
+        title: Is your platform safe?
+        content:
+          At Moon Assist, safety is our highest priority. We offer security solutions including two-factor authentication and IP whitelisting to ensure the safety of our traders.
+      -
+        title: Which exchanges does Moon Assist support?
+        content:
+          Currently, Moon Assist supports GDAX, Binance, Kucoin, Bittrex, Kraken, and Poloniex. We plan to integrate additional exchanges in the future. To request an exchange, please fill in this [form](https://moonassist.typeform.com/to/VENUty).
+  -
+    title: Getting Started
+    items:
+      -
+        title: How do I create an account?
+        content:
+          To create a new account, go to the homepage and click sign up in the center of the page. Enter your user information and confirm your registration. Lastly, you will receive an email confirmation where you need to validate your email address by clicking the hyperlink inside.
+      -
+        title: How do I connect an exchange account to Moon Assist?
+        content:
+          To connect an exchange, first, navigate to the Account page and click Exchanges on the left side of the page. Then, click on Add Exchange and select an exchange to connect to your account. Enter your public API key, secret API key (and passphrase if needed).
+      -
+        title: How do I disconnect an exchange account? And what happens when I do so?
+        content:
+          First, navigate to the Account page and click Exchanges on the left side of the page. Then, click Delete on the exchange connection you want to disconnect. You are also able to pause the connection by using the switch.
+
+
+          When you disconnect an exchange, you will no longer be able to trade through Moon Assist on that exchange.
+
+          IMPORTANT - This will remove your connection and your open positions that are placed through Moon Assist.
+
+
+          When you pause the connection with an exchange, your connection and open positions stay intact, but you are not able to trade via Moon Assist. You can easily resume trading by enabling the switch.
+      -
+        title: Can I trade on Moon Assist and the actual exchange at the same time?
+        content:
+          Yes. When an exchange account is connected to Moon Assist, you are still able to trade directly on that exchange. The only difference is that you can trade through your Moon Assist account as well.
+
+
+          IMPORTANT- Trading on the actual exchanges can affect your open positions! When the available amounts are changing, open positions can be canceled as there is not enough to successfully fulfill the order.
+  -
+    title: Account Security
+    items:
+      -
+        title: How do I change my personal account information?
+        content:
+          You can edit your personal data and account information by navigating to the account drop-down in the upper-right corner of the page and clicking on the Settings tab.
+      -
+        title: Does Moon Assist comply with General Data Protection Regulation (GDPR) requirements?
+        content:
+          Yes. Moon Assist is compliant with GDPR requirements. Our users’ protection is our top priority. For more information on GDPR go to https://www.eugdpr.org/.
+      -
+        title: How can I improve my password security?
+        content:
+          We advise you to use a unique password with a combination of letters, numbers, and symbols. Additionally, Moon Assist provides two-factor authentication and whitelist IPs to prevent unauthorized access.
+      -
+        title: How do I retrieve my username or password if I have forgotten it?
+        content:
+          To reset your password&#58;
+
+
+          1. Go to the Moon Assist [homepage](https://moonassist.com/)
+
+
+          2. Click Login in the upper-right corner of your screen
+
+
+          3. On the login screen, click forgot password; the pop-up window will appear
+
+
+          4. Enter your email for the password reset email and click reset password
+
+
+          5. Check your email inbox associated with Moon Assist account for the instructions on how to restore forgotten password
+      -
+        title: How do I enable 2FA on my Moon Assist account?
+        content:
+          Download the 2FA application (Google Authenticator for most users) to your mobile phone. If you are using Android, click [here](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en). If you are using iOS, please click [here](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8).
+
+
+          When you are logged in, click the username drop-down menu in the upper-right corner of your interface and choose Settings. Navigate to the Security tab and find the 2FA QR code.
+
+
+          Now, open the Google Authentication application on your mobile phone and select Start Setup. Aim your phone's camera (via Google Authentication) at the QR code on your screen, and wait for the app to fill in the necessary fields. Your phone should now display the digital code generated for your Moon Assist account. Enter this code in the text field and click the Verify button beneath the text field. Now your account is set up for two-factor authentication.
+      -
+        title: If I lose my 2FA, how do I log in or reset my Moon Assist account?
+        content:
+          If you lose your 2FA, to regain access to your Moon Assist account, contact support@moonassist.com. Then, you will need to provide either a driver’s license, national ID or passport to our support team to verify your identification.
+      -
+        title: How do I setup IP address whitelisting?
+        content:
+          When you are logged in, click the username drop-down menu in the upper-right corner of your interface and choose Settings. Navigate to the Security tab and find the Whitelist IP section.
+
+
+          Enter your IP address into the text field and click the Add (+) button next to the text field. Now, your account is set up with IP whitelisting. You will receive an email notification if we detect a login attempt to your Moon Assist account from an unknown IP Address.
+  -
+    title: Trading
+    items:
+      -
+        title: How do I use the stop market function?
+        content:
+          A stop-market requires the setting of one price point. The point initiates the start of the action, the stop, and once in the designated range, will execute at the latest market price.
+
+
+          For example, assume that XYZ Coin is trading at $5 and a trader wants to buy the coin once it begins showing upward momentum. The trader puts a stop-market order to buy with the stop price at $6 and execute at the latest market price at or above that price. Similarly, the stop-market sell enables the same function in the other direction.
+
+
+          The benefit of a stop-market order is that a trader has the guarantee over when an order will be filled.
+
+      -
+        title: How do I use the trailing stop function?
+        content:
+          The trailing stop is more flexible than a fixed stop-market since it automatically tracks the coin’s price direction and does not have to be manually reset like the fixed stop-market.
+
+
+          For example, the market price of Ethereum is $480, and you placed a Stop Sell Order at $450, which is in our case $30 below the current market price. Suppose the price of Ethereum suddenly increases to $550. You are now in a chance of “locking in” even bigger profit by manually repositioning your Stop Sell Order to the higher price.
+
+
+          Repositioning your Stop Order can be done automatically for you by enabling “Trailing Stop” function. In our case, Trailing Stop Order will automatically reposition active Stop Order if the price of Ethereum increases while maintaining the spread of $30 between the Ethereum’s spot price and Stop Order.
+      -
+        title: How do I convert directly between coins?
+        content:
+          Converting between coins lets you sell a position directly into the denomination of any other coin available on the exchange you are trading on. Coin converting is designed to remove the intermediary step of selling into BTC or ETH denominated markets when moving between positions.
+
+
+          For example, assume you want to rebalance your portfolio out of EOS and towards ZRX. You can sell an amount of EOS directly into a ZRX position without the intermediary step of first selling into the BTC or ETH markets.
+
+      -
+        title: How do I set-up buy/sell signals?
+        content:
+          Signal buy/sell will allow you to anticipate specific price movements within a given period.
+
+
+          For example, assume you want to buy Ethereum with a specific amount of available Bitcoin you have in your wallet. You decide you want to buy 1 Bitcoin worth of Ethereum. By telling our platform you want to buy Ethereum after a 10% growth in 2 hours, it will automatically buy Ethereum if the specific event happened within the determined time. It will spend 1 Bitcoin to buy your wanted Ethereum.
+
+
+          Similarly, the sell signal enables the same function in the other direction.
+  -
+    title: Support
+    items:
+      -
+        title: How do I contact Moon Assist support?
+        content:
+          To contact Moon Assist support, send us an email at support@moonassist.com or find us on Twitter at [@moon_assist](https://twitter.com/@moon_assist).
+
+      -
+        title: How do I send a feature or exchange request?
+        content:
+          To submit a feature, send us an email at support@moonassist.com, or message [on Twitter](https://twitter.com/@moon_assist) or [Telegram](https://t.me/moonassist).
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Features/Single-color/Trailing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon/Features/Single-color/Trailing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(21.000000, 26.000000)">
+            <polyline id="Path-2" stroke="#0081FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="0 48 12.3985507 38.871502 21.3784817 43.435751 32.9202899 31.4817655 40.615942 35.8286693 53.6182432 0 59 7.05882353"></polyline>
+            <path d="M0,36 C5.70441632,29.6585366 11.0354791,27.097561 15.9931883,28.3170732 C23.4297521,30.1463415 31.9849238,24.6585366 35.7024793,19.902439 C38.1808497,16.7317073 41.2800232,12.097561 45,6" id="Path-3" stroke="#08B689" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval-5" fill="#08B689" cx="44" cy="7" r="3"></circle>
+        </g>
+    </g>
+</svg>

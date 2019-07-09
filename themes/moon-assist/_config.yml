@@ -1,0 +1,12 @@
+# Header
+menu:
+  Home: /
+  Archives: /about
+  Support: /support
+  Login: /login
+
+# Miscellaneous
+google_analytics: TODO
+favicon: /favicon.png
+
+assets_version: 1

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo/ETH@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo/ETH" fill-rule="nonzero">
+            <g id="eth" transform="translate(17.000000, 7.000000)">
+                <polygon id="Shape" fill="#343434" points="15.1793795 0 14.848545 1.12533118 14.848545 33.7747489 15.1793795 34.1050897 30.3340698 25.1473745"></polygon>
+                <polygon id="Shape" fill="#8C8C8C" points="15.1793795 0 0.024689144 25.1473745 15.1793795 34.1055835"></polygon>
+                <polygon id="Shape" fill="#3C3C3B" points="15.1793795 36.9754495 14.9927296 37.2030835 14.9927296 48.8351267 15.1793795 49.3782879 30.3429579 28.0221784"></polygon>
+                <polygon id="Shape" fill="#8C8C8C" points="15.1793795 49.3782879 15.1793795 36.9749558 0.024689144 28.0221784"></polygon>
+                <polyline id="Shape" fill="#141414" points="15.1793795 34.1055835 30.333576 25.1473745 15.1793795 18.2591033 15.1793795 34.1055835"></polyline>
+                <polyline id="Shape" fill="#393939" points="0.024689144 25.1473745 15.1788857 34.1055835 15.1788857 18.2586095"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

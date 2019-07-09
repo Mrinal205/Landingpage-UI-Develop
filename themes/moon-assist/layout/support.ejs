@@ -1,0 +1,126 @@
+<div class="support">
+  <!--/* Site content - Intro */-->
+  <section class="section section--intro">
+    <div class="support-intro">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+
+            <div class="hero__caption">
+              <h1 class="hero__title">Support</h1>
+              <p class="hero__lead">
+                <strong class="highlight--primary">
+                  We are quick, personal and to the point.
+                  <span class="highlight--secondary">Ask us anything.</span>
+                </strong>
+              </p>
+            </div>
+
+            <div class="support__intro">
+              <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-8">
+                  <p>
+                    Because no great trading platform is complete without great support. We believe in real human support, no waiting lines, we cut through the bureaucracy and go straight to finding solutions to your problems. Just make sure you give us a shout when you need help. We will always be here.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--/* Site content: Contact */-->
+  <section class="section section--contact">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-6">
+          <div class="contact-form">
+            <h3>Request support form</h3>
+            <form action="/thank-you" id="contact-form" name="Support" method="POST" class="contact-form__form" netlify netlify-honeypot="ticketHpt" novalidate>
+              <p class="contact-form__instructions">Please fill out the form and we will get back to you in a zap.</p>
+              <div class="form-group">
+                <input class="contact-form__input contact-form__input--hpt" name="ticketHpt" placeholder="Your ticket id" />
+                <input class="contact-form__input" value="" required
+                  type="text" name="name" placeholder="Your name" />
+                <div class="contact-form__error">Please enter your name!</div>
+              </div>
+              <div class="form-group">
+                <input class="contact-form__input" value="" required
+                  type="email" name="email" placeholder="Your email" />
+                <div class="contact-form__error">Please enter valid email address!</div>
+              </div>
+              <div class="form-group">
+                <textarea class="contact-form__textarea" name="message" required
+                  rows="10" placeholder="Let us know how we can help here"></textarea>
+                <div class="contact-form__error">Message is required!</div>
+              </div>
+              <div class="form-group">
+                <div data-netlify-recaptcha></div>
+              </div>
+              <div class="contact-form__actions">
+                <input class="contact-form__button" type="submit" value="Send" />
+              </div>
+              <p class="contact-form__success-message">
+                Thank you for your message. We'll get back to you shortly.
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="connect-with-us">
+            <h3>Connect with us</h3>
+            <p>If you prefer direct email, you can always write to us at <a href="mailto:support@moonassist.com">support@moonassist.com</a> or alternatively use the chat or your prefered social media platform.</p>
+            <!-- <div class="connect-with-us__address">
+              <p><strong>Moon Assist Ltd</strong> <br/>
+              Pobox 501 , Kings Cross<br/>
+              N140 London, UK</p>
+            </div> -->
+            <div class="site-footer__social">
+            <a href="https://bitcointalk.org/" class="site-footer__social-link" rel="external"><i class="fa fa-bitcoin" aria-hidden="true"></i></a>
+            <a href="https://reddit.com/r/moonassist/" class="site-footer__social-link" rel="external"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a>
+            <a href="//www.t.me/moonassist" class="site-footer__social-link" rel="external"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            <a href="//www.facebook.com/moonassist" class="site-footer__social-link" rel="external"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="//www.twitter.com/moon_assist" class="site-footer__social-link" rel="external"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="//www.medium.com/moonassist" class="site-footer__social-link" rel="external"><i class="fa fa-medium" aria-hidden="true"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!--/* Site content: FAQ */-->
+<section class="section section--mission">
+  <div class="faq" id="faq">
+    <div class="container">
+    <h2 class="faq__headline">Frequently Asked Questions</h2>
+      <div class="faq__content">
+        <% site.data.faq.sections.forEach(function(section) { %>
+          <div class="faq__section">
+            <h3 class="faq__section-title" id="faq-<%= toParam(section.title) %>"><%= section.title %></h3>
+            <div class="faq__items">
+              <% section.items.forEach(function(item, index) { %>
+                <div class="faq__item">
+                  <h4 class="faq__item-title" id="faq-<%= toParam(item.title) %>">
+                    <%= item.title %>
+                    <a href="#faq-<%= toParam(item.title) %>" class="faq__item-anchor"><i class="fa fa-link" aria-hidden="true"></i></a>
+                  </h4>
+                  <div class="faq__item-content">
+                    <%- markdown(item.content) %>
+                  </div>
+                </div>
+              <% }) %>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%- partial('_partial/newsletter') %>

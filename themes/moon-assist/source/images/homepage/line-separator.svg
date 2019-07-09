@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="206px" viewBox="0 0 1440 206" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>curve-divider</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="13" cy="13" r="13"></circle>
+        <circle id="path-2" cx="13" cy="13" r="13"></circle>
+        <circle id="path-3" cx="13" cy="13" r="13"></circle>
+    </defs>
+    <g id="iPad-Portrait" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Moon-Landing-Page-2.0" transform="translate(0.000000, -6098.000000)">
+            <g id="curve-divider" transform="translate(-155.000000, 6099.000000)">
+                <g id="Group-10">
+                    <g id="Group-22" stroke="#415FAB" stroke-width="2">
+                        <g id="online-users">
+                            <path d="M0,68.9136713 C113.557895,153.810789 209.766667,198.684979 288.626316,203.536243 C406.915789,210.813139 496.815789,10.698505 747.589474,136.224957 C914.77193,219.909259 1041.94314,204.371407 1129.10311,89.6114029 C1217.35642,-35.1652182 1341.91991,-29.6358347 1502.7936,106.199553 C1663.66728,242.034941 1762.06942,239.925203 1798,99.8703384" id="Path-3"></path>
+                        </g>
+                    </g>
+                    <g id="Group-21" transform="translate(973.000000, 169.000000)">
+                        <g id="Oval-2" opacity="0.457653986">
+                            <use fill="#08B689" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <circle stroke="#172333" stroke-width="6" cx="13" cy="13" r="16"></circle>
+                        </g>
+                        <circle id="Oval-2" fill="#08B689" cx="13" cy="13" r="13"></circle>
+                    </g>
+                    <g id="Group-21" transform="translate(1367.000000, 11.000000)">
+                        <g id="Oval-2" opacity="0.457653986">
+                            <use fill="#08B689" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <circle stroke="#172333" stroke-width="6" cx="13" cy="13" r="16"></circle>
+                        </g>
+                        <circle id="Oval-2" fill="#E05140" cx="13" cy="13" r="13"></circle>
+                    </g>
+                    <g id="Group-21-Copy" transform="translate(396.000000, 143.000000)">
+                        <g id="Oval-2" opacity="0.457653986">
+                            <use fill="#08B689" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <circle stroke="#172333" stroke-width="6" cx="13" cy="13" r="16"></circle>
+                        </g>
+                        <circle id="Oval-2" fill="#0081FF" cx="13" cy="13" r="13"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

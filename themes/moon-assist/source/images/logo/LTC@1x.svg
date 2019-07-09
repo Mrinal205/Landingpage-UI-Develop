@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo/LTC@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo/LTC" fill-rule="nonzero">
+            <g id="ltc">
+                <polyline id="Shape" fill="#FFFFFF" points="32.7119 33.2332 37.70975 31.40735 38.95255 26.7358 38.9103 26.6201 33.99045 28.41735 37.5349 15.0709 27.48265 15.0709 22.8449 32.48765 18.9748 33.9014 17.6956 38.7179 21.5631 37.30545 18.8331 47.5709 45.58645 47.5709 47.3018 41.18205 30.6007 41.18205 32.7119 33.2332"></polyline>
+                <path d="M32.5,0 C14.55025,0 0,14.5509 0,32.5 C0,50.4491 14.55025,65 32.5,65 C50.44975,65 65,50.4491 65,32.5 C65,14.5509 50.4491,0 32.5,0 Z M45.58645,47.5709 L18.8331,47.5709 L21.5631,37.30545 L17.6956,38.7179 L18.9748,33.9014 L22.8449,32.48765 L27.48265,15.0709 L37.5349,15.0709 L33.99045,28.41735 L38.9103,26.6201 L38.95255,26.7358 L37.70975,31.40735 L32.7119,33.2332 L30.5994,41.18205 L47.3005,41.18205 L45.58645,47.5709 Z" id="Shape" fill="#BEBEBE"></path>
+            </g>
+        </g>
+    </g>
+</svg>

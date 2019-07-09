@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo/Dash@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo/Dash" fill-rule="nonzero">
+            <g id="dash">
+                <circle id="Oval" fill="#2573C2" cx="32.5" cy="32.5" r="32.5"></circle>
+                <g id="Group" transform="translate(11.212500, 19.955000)" fill="#FFFFFF">
+                    <path d="M42.497,3.991 C42.4533698,3.26270681 42.2396549,2.55477631 41.873,1.924 C41.548,1.274 40.9695,0.767 40.2935,0.507 C39.6041216,0.163434745 38.8403864,-0.00405104906 38.0705,0.0195 L9.2235,0.0195 L7.1565,6.214 L33.293,6.214 L29.1655,18.876 L3.0355,18.876 L0.9685,25.0705 L29.952,25.0705 C30.8156172,25.0455026 31.6694939,24.8808734 32.4805,24.583 C33.293,24.1215 34.2225,23.6535 35.009,23.0035 C35.7768543,22.398145 36.470645,21.7043543 37.076,20.9365 C37.5764034,20.18416 38.0030469,19.3852917 38.35,18.551 L42.1785,6.513 C42.5267932,5.72095303 42.6374453,4.84476911 42.497,3.991 Z" id="Shape"></path>
+                    <polygon id="Shape" points="17.459 9.672 2.08 9.672 0.013 15.3985 15.548 15.3985"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

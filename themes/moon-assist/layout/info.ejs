@@ -1,0 +1,17 @@
+<section class="section section--static">
+  <div class="container">
+    <div class="static-content">
+
+      <div class="static-content__header">
+        <h1 class="static-content__title"><%= page.title %></h1>
+        <p class="static-content__meta">
+          Last updated: <%= page.last_update %>
+        </p>
+      </div>
+
+      <div class="static-content__body">
+        <%- page.content %>
+      </div>
+    </div>
+  </div>
+</section>
